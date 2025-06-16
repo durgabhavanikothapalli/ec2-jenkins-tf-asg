@@ -1,2 +1,26 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform provider binaries and modules
 .terraform/
-.terraform/
+*.lock.hcl
+*.zip
+
+# Ignore any log files
+*.log
+
+# Ignore sensitive or local config files
+*.pem
+*.key
+
+# Ignore OS files
+.DS_Store
+
+# Ignore temp files
+*.tmp
+*.bak
+
+# Ignore license files (if not needed)
+LICENSE.txt
+
