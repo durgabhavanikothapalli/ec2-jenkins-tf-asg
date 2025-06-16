@@ -23,4 +23,27 @@
 
 # Ignore license files (if not needed)
 LICENSE.txt
+# Terraform specific
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfstate.d/
+crash.log
+*.tfplan
+*.tfvars
+
+# Binary files
+*.zip
+*.tar.gz
+*.exe
+*.bin
+*.dll
+*.so
+*.dylib
+
+# Large provider plugins
+terraform-provider-*
+
+# User data scripts
+userdata.sh
 
